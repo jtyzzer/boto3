@@ -46,7 +46,7 @@ Here is an example of how the event system works::
 
 In this example, the handler ``add_my_bucket``
 is registered such that the handler will inject the
-value ``'mybucket`` for the ``Bucket`` parameter whenever the the
+value ``'mybucket`` for the ``Bucket`` parameter whenever the
 ``list_objects`` client call is made without the ``Bucket`` parameter. Note
 that if the same ``list_objects`` call is made without the ``Bucket``
 parameter and the registered handler, it will result in a validation error.
